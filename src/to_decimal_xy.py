@@ -14,7 +14,7 @@ def main(ubx_txt_dir, output_dir):
     for file in pathlist:
         name = file.split("\\")[-1].split(".")[0]
 
-        f = open(f"{output_dir}/{name}.txt","r")
+        f = open(f"{ubx_txt_dir}/{name}.txt","r")
         # f1 = open(f"{output_dir}/{name}_d.txt", "w")
         f2 = open(f"{output_dir}/{name}_xy.txt", "w")
         while True:
