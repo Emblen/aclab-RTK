@@ -44,5 +44,5 @@ u-centerのテキストコンソールでこのようなテキストデータを
 ```
 # プログラムの実行
 `aclab-RTK`ディレクトリに移動し，コマンドプロンプト等で  
-`python src/to_decimal_xy.py --txtdir txtdir --outdir outputdir`  
+`python src/to_decimal_xy.py -txtdir txtdir -outdir outputdir`  
 を実行する．outputdir/以下に国家座標に変換されたRTKデータが姿を現す．
