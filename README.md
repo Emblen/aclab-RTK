@@ -28,7 +28,7 @@ u-centerのテキストコンソールでこのようなテキストデータを
 ## ディレクトリ構成
 ※必ずしもこの通りでなくてもよいが，プログラム実行時の引数に注意
 ```
-|--aclab-RTK
+|--aclab-RTK-main
    |--src (ソースコードがあるディレクトリ)
    |  |--to_decimal_xy.py
    |  `--calc_xy.py
@@ -43,7 +43,7 @@ u-centerのテキストコンソールでこのようなテキストデータを
    `README.md (このドキュメント)
 ```
 # プログラムの実行
-`aclab-RTK`ディレクトリに移動し，コマンドプロンプト等で  
+`aclab-RTK-main`ディレクトリに移動し，コマンドプロンプト等で  
 `python3 src/to_decimal_xy.py -txtdir txtdir -outdir outputdir`  
 を実行する．outputdir/以下に国家座標に変換されたRTKデータが姿を現す．ファイルの中身を見てみると以下のようになっている．
 ```
